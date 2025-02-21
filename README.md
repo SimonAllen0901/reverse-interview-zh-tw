@@ -14,6 +14,7 @@
 翻譯:
 
 - [阿拉伯語](https://github.com/viraptor/reverse-interview/blob/master/translations/ARABIC.md)
+- [保加利亞語](https://github.com/viraptor/reverse-interview/blob/master/translations/BULGARIAN-Cyrillic.md)
 - [加泰羅尼亞語](https://github.com/viraptor/reverse-interview/blob/master/translations/CATALAN.md)
 - 中文 [簡體](https://github.com/yifeikong/reverse-interview-zh) / [繁體](https://github.com/NeroCube/reverse-interview-zh-tw/blob/master/README.md)
 - [英文](https://github.com/viraptor/reverse-interview/blob/master/README.md)
@@ -22,11 +23,17 @@
 - [印地語](https://github.com/hraverkar/reverse-interview/blob/master/translations/Hindi.md)
 - [印度尼西亞語](https://github.com/viraptor/reverse-interview/blob/master/translations/INDONESIAN.md)
 - [意大利語](https://github.com/viraptor/reverse-interview/blob/master/translations/ITALIAN.md)
+- [日語](https://github.com/viraptor/reverse-interview/blob/master/translations/JAPANESE.md)
 - [韓語](https://github.com/JaeYeopHan/Interview_Question_for_Beginner/blob/master/Reverse_Interview/README.md)
-- [葡萄牙語（巴西](https://github.com/viraptor/reverse-interview/blob/master/translations/pt-BR.md)
+- [馬拉地語](https://github.com/Pratik-Khose/reverse-interview/blob/master/translations/Marathi.md)
+- [波斯語](https://github.com/Kaaveh/reverse-interview/blob/master/translations/PERSIAN.md)
+- [波蘭語](https://github.com/viraptor/reverse-interview/blob/master/translations/POLISH.md)
+- [葡萄牙語（巴西)](https://github.com/viraptor/reverse-interview/blob/master/translations/pt-BR.md)
 - [俄語](https://github.com/kix/reverse-interview/blob/master/README.md)
+- 塞爾維亞 [拉丁語](https://github.com/viraptor/reverse-interview/blob/master/translations/SERBIAN-Latin.md) / [西里爾語](https://github.com/viraptor/reverse-interview/blob/master/translations/SERBIAN-Cyrillic.md)
 - [西班牙語](https://github.com/felHR85/Entrevista-inversa/blob/master/README.md)
 - [土耳其語](https://github.com/viraptor/reverse-interview/blob/master/translations/TURKISH.md)
+- [烏克蘭語](https://github.com/viraptor/reverse-interview/blob/master/translations/UKRAINIAN.md)
 - [越南語](https://github.com/tuannh99/reverse-interview/blob/master/README.md)
 
 
@@ -79,6 +86,9 @@ CI/CD (持續整合系統) 也不一定保證交付時間會很短。
 - 你們是否使用靜態程式碼分析嗎？
 - 你們如何管理內部和外部的專案產出？
 - 你們如何管理依賴關係？
+- 你們會記錄和討論架構相關的決策嗎？有使用 ADR（Architectural Decision Record，架構決策記錄）來紀下這些決策嗎？
+- 你們會評估、分析程式碼的複雜度嗎？如果有的話會用哪些指標？為什麼？
+- 你們知道哪些地方的程式碼變動特別頻繁嗎？例如有哪些檔案經常被修改？這些部分的風險高嗎？我入職後會不會剛好接觸到這些部分？
 
 # 團隊
 
@@ -98,6 +108,7 @@ CI/CD (持續整合系統) 也不一定保證交付時間會很短。
 - 你們如何在技術和商業目標之間取得平衡？
 - 你們如何分享知識？
 - 目前團隊有多少人？組織人數如何分配？
+- 你們是怎麼決定哪些團隊負責哪些專案和服務的？
 
 # 潛在同事
 - 開發人員傾向向誰學習？
@@ -127,6 +138,7 @@ CI/CD (持續整合系統) 也不一定保證交付時間會很短。
 - 公司是否支持開源項目？
 - 團隊/公司舉辦什麼樣的社交活動，每個人都會參加嗎？
 - 為什麼公司決定聘請外部人員而不是提拔內部員工？
+- 公司是否能協助海外求職者辦理工作簽證？
 
 # 社交議題
 
@@ -151,12 +163,15 @@ CI/CD (持續整合系統) 也不一定保證交付時間會很短。
 - 公司的資金來源是什麼？誰影響或者指定高層計劃或方向？
 - 你們如何賺錢？
 - 什麼阻止了你們賺更多的錢？
+- 公司未來 1 年至 5 年的發展計劃是什麼？
+- 你們認為接下來會面臨哪些重大挑戰？
 - 你們認為什麼是你們的競爭優勢？
 
 # 遠端工作
 
 - 遠端工作和辦公室工作的比例是多少？
 - 公司提供硬體嗎？更新計劃如何？
+- 公司允許員工用私人設備工作嗎？有沒有什麼規範？
 - 額外的配備和傢俱可以通過公司購買嗎？這方面是否有預算？
 - 有共享辦公或者上網的預算嗎？
 - 多久需要去一次辦公室？
@@ -183,21 +198,13 @@ CI/CD (持續整合系統) 也不一定保證交付時間會很短。
 
 # 休假
 
-- 帶薪休假時間有多久？
-- 病假和事假是分開的還是一起算？
-- 我可以提前使用假期時間嗎？也就是說應休假期是負的？
-- 假期如何更新？也就是說未休的假期能否併入下一周期
-- 照顧小孩的政策如何？
-- 無薪休假政策是什麼樣的？
-- 特休假政策是什麼樣的？
-
-- 提供多少帶薪休假 (PTO)？
-- 病假和事假是分開的還是一起計算？？
-- 我可以提前使用假期時間嗎？也就是說計算負的帶薪休假？
-- 特休未使用完會如何處理？(換錢 或 續延)
-- 育兒假政策是什麼？
-- 無薪休假的政策是什麼？
-- 長假的政策是什麼？
+- 公司提供多少帶薪休假 (PTO)？
+- 病假和事假是分開計算的嗎？還是共用同一個假期計算額度？
+- 我可以提前預支使用帶薪休假 (PTO）的額度嗎？如果這樣做，休假額度是否會變成負數？
+- 未使用完的假期額度會如何處理？可以延續到下一個假期計算週期內嗎？
+- 育兒假的政策是什麼？
+- 無薪假的政策是什麼？
+- 特休假、長假的政策是什麼？
 
 # 其他資源
 
@@ -205,6 +212,7 @@ CI/CD (持續整合系統) 也不一定保證交付時間會很短。
 
 - [The Joel Test: 12 Steps to Better Code](https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/) by Joel Spolsky
 - [Questions I'm asking in interviews](https://jvns.ca/blog/2013/12/30/questions-im-asking-in-interviews/) by Julia Evans
+- [Curated list of salary negotiation advices](https://github.com/petermekhaeil/salary-negotiating) by Peter Mekhaeil
 
 # 授權
 
